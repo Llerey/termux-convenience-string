@@ -22,7 +22,7 @@ echo alias cls='"c ; lsd -a"' >> $HOME/.bashrc
 
 echo alias td='"cd $HOME; cls"' >> $HOME/.bashrc
 
-echo alias nf='"c ; neofetch ; cls"' >> $HOME/.bashrc
+echo alias nf='"c ; neofetch ; lsd -a"' >> $HOME/.bashrc
 
 echo alias ubuntu='"cd $HOME ; c ; proot-distro login ubuntu"' >> $HOME/.bashrc
 
