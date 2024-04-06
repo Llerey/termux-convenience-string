@@ -1,12 +1,6 @@
 #!/bin/bash
 
-apt install lsd
-
-apt install proot
-
-apt install proot-distro
-
-apt install neofetch
+apt install -y lsd proot proot-distro neofetch
 
 echo alias ap='"apt update && apt upgrade"' >> $HOME/.bashrc
 
